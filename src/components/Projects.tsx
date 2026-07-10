@@ -40,17 +40,6 @@ export default function Projects() {
             {project.description}
           </p>
 
-          {/* Image placeholder */}
-          <div className="mt-6 aspect-video rounded-lg bg-bg-elevated border border-border-subtle flex items-center justify-center overflow-hidden">
-            <div className="text-center text-text-muted">
-              <div className="text-4xl mb-2">🎮</div>
-              <p className="text-sm font-mono">项目截图占位</p>
-              <p className="text-xs mt-1 opacity-60">
-                替换 /public/placeholder-project.png
-              </p>
-            </div>
-          </div>
-
           {/* Tech tags */}
           <div className="flex flex-wrap gap-2 mt-5">
             {project.tech.map((t) => (
