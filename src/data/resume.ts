@@ -90,7 +90,6 @@ export interface Project {
   description: string;
   tech: string[];
   githubUrl: string;
-  imagePlaceholder: string;
   modules: ProjectModule[];
 }
 
@@ -102,7 +101,6 @@ export const projects: Project[] = [
       '独立开发的 Rust Bevy 引擎 3D 游戏 Demo。实现了完整的第三人称角色控制、战斗、NPC 交互、对话、背包、小地图和世界流式加载系统。',
     tech: ['Rust', 'Bevy 0.19', 'Avian3d', 'GLTF', 'ECS', 'RON'],
     githubUrl: 'https://github.com/DianranQian/game_demo',
-    imagePlaceholder: '/placeholder-project.png',
     modules: [
       {
         title: '移动系统',

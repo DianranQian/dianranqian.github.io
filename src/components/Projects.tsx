@@ -40,14 +40,6 @@ export default function Projects() {
             {project.description}
           </p>
 
-          {/* Bevy Engine badge */}
-          <div className="mt-6 flex items-center gap-4 p-4 rounded-lg bg-bg-elevated/50 border border-border-subtle">
-            <img src="/bevy_logo.svg" alt="Bevy Engine" className="h-8" />
-            <div>
-              <p className="text-sm text-text-primary font-mono font-semibold">Bevy Engine</p>
-              <p className="text-xs text-text-muted mt-0.5">Rust 驱动的 ECS 游戏引擎</p>
-            </div>
-          </div>
 
           {/* Tech tags */}
           <div className="flex flex-wrap gap-2 mt-5">
